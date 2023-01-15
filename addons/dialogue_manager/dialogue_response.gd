@@ -1,12 +1,22 @@
-extends Node
+class_name DialogueResponse extends RefCounted
 
 
-var prompt: String
-var replacements: Array
-var next_id: String
+const DialogueConstants = preload("res://addons/dialogue_manager/constants.gd")
 
 
-func _init(data: Dictionary, should_translate: bool = true) -> void:
-	prompt = tr(data.get("text")) if should_translate else data.get("text")
-	replacements = data.get("replacements")
-	next_id = data.get("next_id")
+var type: String = DialogueConstants.TYPE_RESPONSE
+var next_id: String = ""
+var is_allowed: bool = true
+var text: String = ""
+var text_replacements: Array[Dictionary] = []
+var translation_key: String = ""
+
+
+func _init(data: Dictionary = {}) -> void:
+	if data.size() > 0:
+		type = data.type
+		next_id = data.next_id
+		is_allowed = data.is_allowed
+		text = data.text
+		text_replacements = data.text_replacements
+		translation_key = data.translation_key

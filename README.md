@@ -1,8 +1,10 @@
 ![Dialogue Manager for Godot](docs/hero.png)
 
-A stateless branching dialogue manager for the [Godot Game Engine](https://godotengine.org/). 
+A stateless branching dialogue manager for the [Godot Game Engine](https://godotengine.org/).
 
 Write your dialogue in a simple script-like way and run it in your game.
+
+_**NOTE:** This is for Godot 4. If you are using Godot 3 then have a look at the [v1.x branch](https://github.com/nathanhoad/godot_dialogue_manager/tree/v1.x)._
 
 ## Installation
 
@@ -13,17 +15,27 @@ Write your dialogue in a simple script-like way and run it in your game.
 ## Documentation
 
 - [Writing Dialogue](docs/Writing_Dialogue.md)
-- [Editor and Runtime settings](docs/Settings.md)
+- [Settings](docs/Settings.md)
 - [Using dialogue in your game](docs/Using_Dialogue.md)
+- [Example balloons](docs/Example_Balloons.md)
 - [Translations](docs/Translations.md)
+- [API](docs/API.md)
+- [C# wrapper](docs/CSharp.md)
 
-## Tutorial
+## Discord
 
-[![Tutorial video thumbnail](docs/tutorial.png)](https://youtu.be/08HHSQGXfgM)
+[![Join the Discord](docs/discord.svg)](https://discord.gg/zwBVQdJchX)
+
+## Tutorials
+
+[![Dialogue Manager for Godot 4](docs/tutorial.png)](https://youtu.be/DL79aS-dT7E)
+[![Interacting with nearby things](docs/interaction-tutorial.png)](https://youtu.be/-rytm4o1ndE)
+[![New Stuff in Dialogue Manager for Godot 4](docs/tutorial2.png)](https://youtu.be/Kco9jeGfOtA)
+[![More new stuff as at version 2.8](docs/tutorial3.png)](https://youtu.be/10p1gozzJ9E)
 
 ## Contributors
 
-[Nathan Hoad](https://nathanhoad.net)
+Godot Dialogue Manager is made by [Nathan Hoad](https://nathanhoad.net) with help from [these cool people](https://github.com/nathanhoad/godot_dialogue_manager/graphs/contributors).
 
 ## License
 
